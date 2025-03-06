@@ -10,6 +10,7 @@ source $HOME/AppData/Local/nvim/plug-config/lsp-config.vim
 
 " Configuração de servidores LSP
 luafile $HOME/AppData/Local/nvim/lua/lsp/ts-lsp.lua
+luafile $HOME/AppData/Local/nvim/lua/lsp/html-lsp.lua
 
 " Selecionando o tema padrão
 colorscheme dracula
