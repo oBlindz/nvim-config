@@ -1,12 +1,10 @@
-# 🚀 Minha Configuração do Neovim (Linux)
-
 ```
-███╗   ██╗███████╗██╗   ██╗██╗███╗   ███╗ ██████╗ ███████╗
-████╗  ██║██╔════╝██║   ██║██║████╗ ████║██╔════╝ ██╔════╝
-██╔██╗ ██║█████╗  ██║   ██║██║██╔████╔██║██║  ███╗█████╗  
-██║╚██╗██║██╔══╝  ╚██╗ ██╔╝██║██║╚██╔╝██║██║   ██║██╔══╝  
-██║ ╚████║███████╗ ╚████╔╝ ██║██║ ╚═╝ ██║╚██████╔╝███████╗
-╚═╝  ╚═══╝╚══════╝  ╚═══╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚══════╝
+███╗   ██╗██╗   ██╗██╗███╗   ███╗
+████╗  ██║██║   ██║██║████╗ ████║
+██╔██╗ ██║██║   ██║██║██╔████╔██║
+██║╚██╗██║╚██╗ ██╔╝██║██║╚██╔╝██║
+██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║
+╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝
 ```
 
 > **Tema:** 🎨 *Gruvbox*  
@@ -24,6 +22,7 @@ Bem-vindo ao meu repositório de configuração do **Neovim**, focado em perform
   - HTML
   - CSS
   - PHP
+  - JavaScript
 - 📁 **Navegação de arquivos com:** `nvim-tree`
 - 🔍 **Busca poderosa via:** `telescope.nvim`
 - ⚡ **Autocompletar inteligente com:** `nvim-cmp`
@@ -61,4 +60,4 @@ Sinta-se livre para usar, modificar e contribuir!
 
 ---
 
-**Feito com 💚 por [seu-usuario](https://github.com/seu-usuario)**
+**Feito com 💚 por [oBlindz](https://github.com/oBlindz)**
