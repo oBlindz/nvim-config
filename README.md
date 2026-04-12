@@ -1,63 +1,15 @@
-```
-███╗   ██╗██╗   ██╗██╗███╗   ███╗
-████╗  ██║██║   ██║██║████╗ ████║
-██╔██╗ ██║██║   ██║██║██╔████╔██║
-██║╚██╗██║╚██╗ ██╔╝██║██║╚██╔╝██║
-██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║
-╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝
-```
+                    ███╗   ██╗██╗   ██╗██╗███╗   ███╗
+                    ████╗  ██║██║   ██║██║████╗ ████║
+                    ██╔██╗ ██║██║   ██║██║██╔████╔██║
+                    ██║╚██╗██║╚██╗ ██╔╝██║██║╚██╔╝██║
+                    ██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║
+                    ╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝
+> Theme: Gruvbox  
+> Operational System: Linux (Main)
 
-> **Tema:** 🎨 *Gruvbox*  
-> **Sistema:** 🐧 *Linux*
+This is my own NeoVim setup, please be sure to install the plugins and nvim properly, the usage is simple, but with some configurations that help me in my daily workflow. I hope enjoy it.
 
-Bem-vindo ao meu repositório de configuração do **Neovim**, focado em performance, visual retrô e uma experiência moderna de desenvolvimento com **LSP**, **autocompletar**, **explorador de arquivos** e muito mais.
-
----
-
-## ✨ Destaques
-
-- 📦 **Gerenciador de Plugins:** [`vim-plug`](https://github.com/junegunn/vim-plug)  
-- 🎨 **Tema retrô:** *Gruvbox*  
-- 🧠 **Suporte ao LSP:**
-  - HTML
-  - CSS
-  - PHP
-  - JavaScript
-- 📁 **Navegação de arquivos com:** `nvim-tree`
-- 🔍 **Busca poderosa via:** `telescope.nvim`
-- ⚡ **Autocompletar inteligente com:** `nvim-cmp`
-
----
-
-## 🛠️ Instalação no Linux
-
-1. **Clone o repositório:**
-
-   ```bash
-   gh repo clone https://github.com/seu-usuario/nvim-config.git ~/.config/nvim
-   ```
-
-2. **Abra o Neovim:**
-
-   ```bash
-   nvim
-   ```
-
-3. **Instale os plugins dentro do Neovim:**
-
-   ```
-   :PlugInstall
-   ```
-
-4. **Reinicie o Neovim e aproveite!** 🚀
-
----
-
-## 📜 Licença
-
-Este projeto está licenciado sob a **MIT License**.  
-Sinta-se livre para usar, modificar e contribuir!
-
----
-
-**Feito com 💚 por [oBlindz](https://github.com/oBlindz)**
+## Instalation:
+1. Install the NeoVim from scratch: ```sudo apt install neovim```
+2. Clone this repo: ```gh repo clone "https://github.com/oBlindz/nvim-config" ~/.config/nvim```
+3. Enjoy
