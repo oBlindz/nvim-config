@@ -34,6 +34,8 @@ set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard+=unnamedplus
 set relativenumber
 set encoding=utf8
+set autochdir
+set foldmethod=manual
 
 set completeopt=menuone,noselect
 
@@ -93,4 +95,3 @@ nnoremap <C-k> :t.-1<CR>==
 vnoremap <C-j> :t'>+1<CR>gv=gv
 " Copiar o bloco selecionado para cima no modo visual
 vnoremap <C-k> :t'<-2<CR>gv=gv
-
