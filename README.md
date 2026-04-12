@@ -34,7 +34,7 @@ Bem-vindo ao meu repositório de configuração do **Neovim**, focado em perform
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/nvim-config.git ~/.config/nvim
+   gh repo clone https://github.com/seu-usuario/nvim-config.git ~/.config/nvim
    ```
 
 2. **Abra o Neovim:**
