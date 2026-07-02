@@ -19,3 +19,6 @@ The plug manager that i chose was vim-plug. The reason is that old solutions cou
 
 ### NERDTree:
 This is the tree manager for this setup, it's a kind simple, but with lot's of commands that could help.
+
+### LSPs:
+- JS: npm install --global quick-lint-js 
