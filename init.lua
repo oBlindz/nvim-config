@@ -15,3 +15,6 @@ vim.cmd('silent! :set expandtab')
 --Shortcuts
 vim.keymap.set('n','<C-o>',':NERDTreeToggle<CR>',{silent=true})
 vim.keymap.set('n','<C-j>',':NERDTree<CR>',{silent=true})
+
+--LSPs
+vim.lsp.enable('lua')
