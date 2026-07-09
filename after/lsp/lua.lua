@@ -11,9 +11,6 @@ local root_markers2 = {
   'selene.toml',
   'selene.yml',
 }
-vim.o.autocomplete = true
-vim.opt.completeopt = { "menuone", "noselect", "popup" }
-
 
 ---@type vim.lsp.Config
 return {
@@ -28,4 +25,12 @@ return {
       hint = { enable = true, semicolon = 'Disable' },
     },
   },
+  on_attach = function(client, bufnr)
+    vim.lsp.completion.enable(true, client.id, bufnr, {
+    autotrigger = true,
+    convert = function(item)
+      return { abbr = item.label:gsub("%b()", "") }
+    end,
+  })
+  end,
 }
