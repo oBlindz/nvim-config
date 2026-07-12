@@ -19,6 +19,7 @@ vim.keymap.set('n','<C-j>',':NERDTree<CR>',{silent=true})
 --LSPs
 vim.lsp.enable('lua')
 vim.lsp.enable('python')
+vim.lsp.enable('php')
 
 --Autocomplete
 vim.opt.completeopt = {"menuone","noselect","popup"}
